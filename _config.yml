@@ -1,0 +1,5 @@
+title: Horn of the Abyss
+
+markdown: kramdown
+permalink: pretty
+exclude: ["node_modules", "package.json"]
