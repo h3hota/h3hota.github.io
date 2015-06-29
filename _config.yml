@@ -1,4 +1,2 @@
 title: Horn of the Abyss
-
 markdown: kramdown
-exclude: ["node_modules", "package.json", "webpack.config.js", "assets/src"]
