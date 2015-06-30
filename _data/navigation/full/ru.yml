@@ -1,2 +1,6 @@
 left:
+  - name: ГЛАВНОЕ
+    links:
+      - article: html-sample
+        type: 1
 right:
