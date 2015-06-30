@@ -13,6 +13,28 @@
     </header>
 
     <div class="deck">
+        {% assign sides = "left, right" | split: ", " %}
+        {% for side in sides %}
+            <div class="deck-{{side}}">
+                {% for section in site.data.navigation.full[page.language][side] %}
+                    <nav class="section">
+                        <h1>{{section.name}}</h1>
+                        <ul>
+                            {% for link in section.links %}
+                                {% capture linkURL %}/{{page.language}}/{{link.article}}.html{% endcapture %}
+                                {% for article in site.pages %}
+                                    {% if article.url == linkURL %}
+                                        <li>
+                                            <a href="{{linkURL}}" data-type="{{link.type}}">{{article.title | upcase}}</a>
+                                        </li>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                        </ul>
+                    </nav>
+                {% endfor %}
+            </div>
+        {% endfor %}
         <div class="deck-middle">
             <main>
                 {{content}}
