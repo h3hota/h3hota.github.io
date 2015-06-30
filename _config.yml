@@ -1,2 +1,3 @@
 title: Horn of the Abyss
 markdown: kramdown
+exclude: ["node_modules"]
