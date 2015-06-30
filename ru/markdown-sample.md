@@ -3,8 +3,6 @@ layout: article
 language: ru
 title: Главная
 ---
-# ГЛАВНАЯ {#main}
-
 Horn of the Abyss — это глобальное дополнение к игре Heroes of Might &amp; Magic III (Герои Меча и Магии III),
 расширяющее классические игровые элементы и добавляющее новые.
 
