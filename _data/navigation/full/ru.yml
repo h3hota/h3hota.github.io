@@ -4,3 +4,7 @@ left:
       - article: html-sample
         type: 1
 right:
+  - name: Причал
+    links:
+      - article: html-sample
+        type: 2
